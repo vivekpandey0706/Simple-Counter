@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(station.jpeg);
+    background-size: 420px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+.count{
+    color: white;
+    text-align: center;
+}
+#increment-btn{
+    background-color: darkred;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    width: 10vw;
+    font-size: large;
+}
+#save-btn{
+    background-color: yellow;
+    color: black;
+    padding: 6px 10px;
+    cursor: pointer;
+    width: 10vw;
+    font-size: large;
+}
+#reduce-btn{
+    background-color: darkgreen;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    width: 10vw;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#increment-btn:hover{
+    font-weight: bold;
+}
+#reduce-btn:hover{
+    font-weight: bold;
+}
+#save-btn:hover{
+    font-weight: bold;
+}
+#save-el{
+
+    color: white;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 10px;
+
+
+}
+.button{
+    display: flex;
+    justify-content:center ;
+}
